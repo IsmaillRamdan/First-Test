@@ -1,0 +1,346 @@
+h1, h2, h3, h4, h5, .lead{
+    font-family: 'Droid Sans', sans-serif;
+}
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color: #E41B17;
+}
+.navbar-inverse .navbar-brand{
+    font-weight: 30;
+    
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-brand span{
+    font-size: 15px;
+    color: #E41B17
+}
+.dropdown-menu 
+{
+    background-color: #222
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a
+{
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus
+{
+    background-color: #E41B17;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+/*starting slider*/
+.carousel, 
+.carousel-inner{
+    padding: 0;
+}
+.carousel{
+    margin-bottom: 50px;
+}
+.carousel-caption {
+    padding-bottom:70px;
+    color: #888;
+}
+.carousel-indicators .active{
+    background-color: #E41B17;
+}
+/*end slider*/
+
+/*start section about*/
+.about {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.about h2{    
+    font-weight: bold;
+}
+.about h2 span{color: #E41B17}
+/*end section about */
+
+/*start features*/
+.features {
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features h1{ margin-bottom: 40px;}
+.features .feat{
+    line-height: 2em;
+}
+.features .feat .glyphicon{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+/*end section about */
+
+/*stert testmonial*/
+.testmonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testmonial h1{
+  padding-bottom: 30px;
+}
+.testmonial .item span{
+    padding-top: 30px;
+    color: #E41B17;
+    font-size: 18px;
+    font-weight: bold
+}
+.testmonial .carousel-inner{
+    min-height: 140px;
+}
+.testmonial .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testmonial .carousel-indicators li{
+    text-indent: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: .3;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.testmonial .carousel-indicators li.active{
+    opacity: 1;
+    background: none;
+    border: 2px solid #E41B17;
+}
+.testmonial .carousel-indicators li img{
+    max-width: 100%;
+}
+/*end testmonial*/
+
+/*start prices section*/
+.prices{
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.prices h1{padding-top: 20px; padding-bottom: 25px;}
+.prices .price_box{
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.prices .price_box p{
+    font-weight: bold; 
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    background-color: #EEE;
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    border: 1px solid #FFF;
+}
+.prices .price_box:hover p{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -O-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 1px solid #DFDFDF;
+}
+.prices ul li{
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 15px;
+    font-weight: bold
+}
+/*end prices section */
+
+/*start our team section*/
+.ourteam{
+    background:url('../images/m1.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+}
+.ourteam h1{padding-bottom: 40px;}
+.ourteam .team{
+    background: rgba(2,2,2,0.8);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ourteam .team .person{margin-bottom: 20px;}
+/*end aour team section*/
+
+/*start subscribe section*/
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+}
+.subscribe h1{padding-bottom: 15px}
+.subscribe .form-inline .form-control{padding-right: -5px;}
+/*end subscribe*/
+
+/*start statictics*/
+.statistic{
+    background:url('../images/st1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+.statistic h1{padding-bottom: 20px;}
+.statistic .data{
+    background: rgba(2,2,2,0.8);
+    color: #FFF;
+    min-height: 350px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #B6B5B5;
+   
+}
+.statistic p{
+    font-size: 50px;
+    font-weight: 40px;
+    margin-bottom: 0px;
+}
+.statistic span{
+    font-size: 18px;
+    
+}
+.statistic .stat{
+    margin-bottom: 20px;
+     -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.statistic .stat:hover{
+    color: #FFF
+}
+/*end statistics*/
+
+.over{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+    height: 300px;
+}
+
+/*start contact us section */
+.contact-us{
+    background:url('../images/con1.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;
+}
+.contact-us .contact{
+    background: rgba(2,2,2,0.8);
+    color: #FFF;
+    min-height: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us textarea{
+    height: 108px;
+}
+/*end contact us */
+
+/*strt clients*/
+.clients{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EEE;
+}
+.clients img{
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.clients img:hover{opacity: 1;}
+/*end clients*/
+
+/*strt foonter*/
+.footer{
+    padding-top: 20px;
+    
+    background-color: #111;
+    color: #AAA
+}
+.footer h3{
+    color: #0895D1;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+}
+.footer .three-columns{
+    overflow: hidden;
+}
+.footer .three-columns li{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+.footer .social-list{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    opacity: .7;
+}
+.footer .social-list li:hover{
+    opacity: 1
+}
+.footer .img-thumbnail{
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid #666;
+    padding: 5px 5;
+}
+.footer .copyright{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.footer .copyright span{color: #0895D1;}
+/*end footer*/
+
+
+/*
+gride systems 
+row col hidden  visible  offset
+*/
